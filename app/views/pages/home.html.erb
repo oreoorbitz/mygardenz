@@ -2,12 +2,12 @@
   <div class="main-top-section">
     <p class="text-success">MyGarden</p>
     <title></title>
-    <button class="btn btn-success">sign up</button>
+   <%= link_to "log in", new_user_session_path, class: "btn btn-success" %>
   </div>
   <div class="main-mid-section">
     <h1>share your collection </h1>
     <h2>learn gardening tips and tricks</h2>
     <br>
-    <button class="btn btn-success btn-lg">sign up now!</button>
+    <%= link_to "Sign Up Now!", new_user_registration_path, class: "btn btn-success btn-lg" %>
   </div>
 </main>
