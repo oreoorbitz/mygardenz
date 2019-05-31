@@ -1,1 +1,43 @@
-// Specific CSS for your home-page
+
+.main-container {
+  background-color: #383838;
+  height: 100vh;
+  padding: 1rem 1rem;
+}
+
+.main-mid-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+  text-align: center;
+  h1 {
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: $white;
+  }
+  h2 {
+    font-weight: 400;
+    margin-bottom: 5rem;
+    color: $white;
+  }
+
+
+}
+
+.main-top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    margin-bottom: 0;
+    font-weight: 800;
+  }
+
+}
+
+.main-mid-section .btn {
+
+}
+
