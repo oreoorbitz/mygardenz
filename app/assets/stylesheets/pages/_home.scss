@@ -3,6 +3,20 @@
   background-color: #383838;
   height: 100vh;
   padding: 1rem 1rem;
+  background-image: url("https://res.cloudinary.com/raccoon-inc/image/upload/s--iUhnIuD4--/c_scale,f_auto,q_jpegmini:1,w_auto/v1559029811/succulents2_l6vucf.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6)
 }
 
 .main-mid-section {
@@ -12,17 +26,23 @@
   margin-top: 10rem;
   text-align: center;
   h1 {
+    z-index: 1;
     font-weight: 800;
     margin-bottom: 1rem;
     color: $white;
+
   }
   h2 {
+    z-index: 1;
     font-weight: 400;
     margin-bottom: 5rem;
     color: $white;
+
   }
 
-
+  .btn {
+    z-index: 1;
+  }
 }
 
 .main-top-section {
@@ -30,14 +50,23 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
   p {
+    z-index: 1;
     margin-bottom: 0;
     font-weight: 800;
   }
 
+  .btn {
+    z-index: 1;
+  }
+
+
+
 }
 
-.main-mid-section .btn {
+.main-mid-section  {
+  z-index: 1;
 
 }
 
